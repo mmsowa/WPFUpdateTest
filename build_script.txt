@@ -1,6 +1,5 @@
-
 # find Squirrel.exe path and add an alias
 Set-Alias Squirrel ($env:USERPROFILE + "\.nuget\packages\clowd.squirrel\2.8.15-pre\tools\Squirrel.exe");
 
 # build new version and delta updates.
-Squirrel pack --packId "YourApp" --packVersion "4.0.0" --packAuthors "YourCompany" --packDirectory ".\publish"
+Squirrel pack --packId "YourApp" --packAuthors "YourCompany" --packDirectory ".\publish" --packVersion "6.0.0"
